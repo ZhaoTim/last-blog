@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://example.com/"
-title = "Hugo 主题 MemE"
+title = "Tim"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -92,17 +92,17 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "reuixiy"
+    name = "Tim"
     # 邮箱
-    email = "reuixiy@gmail.com"
+    email = "zhaomeicheng1@gmail.com"
     # 座右铭或简介
-    motto = "Viva La Vida"
+    motto = "丧不是原罪"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://io-oi.me/"
+    website = ""
     # 推特
-    twitter = "reuixiy"
+    twitter = ""
 
 # 相关文章
 [related]
@@ -190,24 +190,24 @@ uglyURLs = false
         weight = 2
         pre = "internal"
         post = "archive"
-    [[menu.main]]
-        url = "/categories/"
-        name = "分类"
-        weight = 3
-        pre = "internal"
-        post = "th"
-    [[menu.main]]
-        url = "/tags/"
-        name = "标签"
-        weight = 4
-        pre = "internal"
-        post = "tags"
-    [[menu.main]]
-        url = "/about/"
-        name = "关于"
-        weight = 5
-        pre = "internal"
-        post = "user-circle"
+    # [[menu.main]]
+    #     url = "/categories/"
+    #     name = "分类"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = "th"
+    # [[menu.main]]
+    #     url = "/tags/"
+    #     name = "标签"
+    #     weight = 4
+    #     pre = "internal"
+    #     post = "tags"
+    # [[menu.main]]
+    #     url = "/about/"
+    #     name = "关于"
+    #     weight = 5
+    #     pre = "internal"
+    #     post = "user-circle"
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -298,7 +298,7 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "posts"
+    homeLayout = "page"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
@@ -693,7 +693,7 @@ uglyURLs = false
     # 文章元信息
 
     # 是否开启（全局设置）
-    enablePostMeta = true
+    enablePostMeta = false
     # 说明：文章的 Front Matter 中的 `meta`
     #      的优先级高于此处
 
@@ -886,11 +886,11 @@ uglyURLs = false
     # 菜单栏
     fontFamilyMenu = ""
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
-    fontFamilyTitle = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyTitle = "'Noto Sans SC', 'EB Garamond', sans-serif"
     # 分节标题、目录标题
-    fontFamilyHeadings = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyHeadings = "'Noto Sans SC', 'EB Garamond', sans-serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
-    fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
+    fontFamilyCode = "'Source Code Pro', 'Noto Sans SC', monospace"
     # 引用
     fontFamilyQuote = ""
     # 文章目录
@@ -900,10 +900,10 @@ uglyURLs = false
     # 页脚
     fontFamilyFooter = ""
     # 主体
-    fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
+    fontFamilyBody = "'Noto Sans SC', sans-serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Sans+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap&family=Architects+Daughter&display=swap"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
@@ -998,10 +998,10 @@ uglyURLs = false
     # 文章版权
 
     # 是否开启
-    enablePostCopyright = true
+    enablePostCopyright = false
 
     # 是否显示（全局设置）
-    displayPostCopyright = true
+    displayPostCopyright = false
     # 说明：文章的 Front Matter 中的 `displayCopyright`
     #      的优先级高于此处
 
@@ -1010,7 +1010,7 @@ uglyURLs = false
     # 文章更新徽章
 
     # 是否开启
-    enablePostUpdatedBadge = true
+    enablePostUpdatedBadge = false
 
     # 是否显示（全局设置）
     displayUpdatedBadge = true
@@ -1068,7 +1068,7 @@ uglyURLs = false
     # 文章分享
 
     # 是否开启
-    enablePostShare = true
+    enablePostShare = false
 
     # 是否显示（全局设置）
     displayPostShare = true
@@ -1138,14 +1138,14 @@ uglyURLs = false
     # 极简页脚
 
     # 是否开启
-    enableMinimalFooter = false
-    enableVerticalBarStructure = false
+    enableMinimalFooter = true
+    enableVerticalBarStructure = true
     # 说明：如果开启此项，显示在右边的部类或分区
     #      将会包含全部的第一级部类或分区，并且
     #      以竖线（|）分隔开来。
 
     # 是否开启关于页面的极简页脚
-    enableAboutPageMinimalFooter = false
+    enableAboutPageMinimalFooter = true
 
 
     ######################################
@@ -1171,19 +1171,19 @@ uglyURLs = false
     # 页脚
 
     # 是否开启
-    enableFooter = true
+    enableFooter = false
 
     # 是否显示
-    displayFooter = true
+    displayFooter = false
 
     # 是否在首页显示
-    displayFooterInHome = true
+    displayFooterInHome = false
 
     # 是否显示版权符号（©）
-    displayCopyrightSymbol = true
+    displayCopyrightSymbol = false
 
     # 是否显示站点的创建年份
-    displaySiteCreatedYear = true
+    displaySiteCreatedYear = false
 
     # 年份与作者之间的图标，留空（""）则无
     iconBetweenYearAndAuthor = "heart"
@@ -1237,7 +1237,7 @@ uglyURLs = false
     enableHighlight = true
 
     # 是否开启竖直滚动
-    enableOverflowY = true
+    enableOverflowY = false
     # 最大高度
     maxHeight = 20
     # 单位：em

@@ -1,0 +1,30 @@
+
+@media (min-width: 576px) {
+  .single .main-inner {
+    width: 576px !important;
+    overflow: hidden;
+  } 
+  .main.list .main-inner{
+    width: 600px;
+  }
+
+  .header-wrapper .header-inner  {
+    width: 576px !important;
+  }
+ }
+
+.main-inner pre code {
+  font-size: 0.8rem;
+  padding: 0;
+}
+
+.main-inner code {
+  font-size: 100%;
+  border-radius: 0.5em;
+  padding: 3px 5px;
+}
+
+::selection {
+  background: rgb(21, 0 ,199); 
+  color: white;
+}

@@ -7,6 +7,15 @@ title: " "
     margin-top: 0 !important;
 }
 
+.flex {
+    display: flex;
+}
+
+.fg-1 {
+    width: 20%;
+    flex-grow: 1;
+}
+
 </style>
 
 
@@ -22,5 +31,9 @@ title: " "
 
 虽然马上就过年放假了，今天还挺忙！发现程序员不只是打代码就可以了，还需要准确理解PM的需求、和别组的同事沟通协调，挺难。
 
-<img src="https://tim-static.vercel.app/%E6%B3%A2%E6%96%AF%E8%AF%AD%E8%AF%BE.jpg" height="300px"/>
-晚上回家看了《波斯语课》，感觉，人为了活下去激发自己的无限潜能，有时，逼自己一把，没准就把英语学会了呢。
+<div class="flex">
+    <img src="https://tim-static.vercel.app/波斯语课.jpg" class="fg-1"/>
+    <img src="https://tim-static.vercel.app/我是传奇.jpg" class="fg-1"/>
+</div>
+
+看了两个美剧，一个是《波斯语课》，一个是《我是传奇》。讲真，在2021年看《我是传奇》有一丝恐惧，毕竟，新冠肺炎还在全世界肆虐。给我最大的触动的一个情节，当男主的唯一陪伴，也就是他的狗，死了以后，男主选择了自杀，孤独真的可以杀人。《波斯语课》看完竟然有点想学英语...

@@ -9,6 +9,7 @@ title: " "
 
 .flex {
     display: flex;
+    justify-content: space-between;
 }
 
 .fg-1 {
@@ -16,6 +17,13 @@ title: " "
     flex-grow: 1;
 }
 
+.fg-1:not(:last-child) {
+    margin-right: 20px !important;
+}
+
+img {
+    width: 40%;
+}
 </style>
 
 

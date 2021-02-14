@@ -66,3 +66,5 @@ img {
 ### 2021.02.14
 
 看了《海边的曼彻斯特》，几度看哭，被男主的演技折服，deeply。
+
+<img src='https://tim-static.vercel.app/曼彻斯特.jpg' width="80%">

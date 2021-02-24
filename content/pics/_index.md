@@ -3,8 +3,6 @@ title: " "
 align: "center"
 ---
 
-***原图，所以加载过慢.***
-
 <style>
 
     .pic-container {

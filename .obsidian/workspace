@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "6999f57b6fd92f31",
+    "type": "split",
+    "children": [
+      {
+        "id": "07e83576bbd4d7b7",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "content/pics/_index.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2be944b05e55dc10",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c3096f884bf5d5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd859d39ad1915ff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "721c5c8cb8de456b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e888bbe0f1a7e14e",
+    "type": "split",
+    "children": [
+      {
+        "id": "791066e752f5fbdc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37d6c012d6afc9b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/pics/_index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "content/pics/_index.md",
+    "content/posts/read-plans.md",
+    "content/posts/第一篇.md",
+    "content/talks/_index.md"
+  ]
+}

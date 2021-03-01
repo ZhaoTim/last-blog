@@ -189,16 +189,16 @@ uglyURLs = false
         name = "文章"
         weight = 2
         pre = "internal"
-    [[menu.main]]
-        url = "/pics/"
-        name = "相册"
-        weight = 3
-        pre = "internal"
-    [[menu.main]]
-        url = "/talks/"
-        name = "TALK"
-        weight = 4
-        pre = "internal"
+    # [[menu.main]]
+    #     url = "/pics/"
+    #     name = "相册"
+    #     weight = 3
+    #     pre = "internal"
+    # [[menu.main]]
+    #     url = "/talks/"
+    #     name = "TALK"
+    #     weight = 4
+    #     pre = "internal"
     # [[menu.main]]
     #     url = "/categories/"
     #     name = "分类"

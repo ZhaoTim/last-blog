@@ -194,17 +194,17 @@ uglyURLs = false
     #     name = "相册"
     #     weight = 3
     #     pre = "internal"
-    # [[menu.main]]
-    #     url = "/talks/"
-    #     name = "TALK"
-    #     weight = 4
-    #     pre = "internal"
-    # [[menu.main]]
-    #     url = "/categories/"
-    #     name = "分类"
-    #     weight = 3
-    #     pre = "internal"
-    #     post = "th"
+    [[menu.main]]
+        url = "/talks/"
+        name = "TALK"
+        weight = 4
+        pre = "internal"
+    [[menu.main]]
+        url = "/categories/"
+        name = "分类"
+        weight = 3
+        pre = "internal"
+        post = "th"
     # [[menu.main]]
     #     url = "/tags/"
     #     name = "标签"
@@ -856,7 +856,7 @@ uglyURLs = false
     enableVideoHost = false
 
     # 视频外链地址
-    videoHostURL = "https://example.com/"
+    videoHostURL = "https://static.zhaomeicheng.com/"
 
 
     ######################################
@@ -890,16 +890,16 @@ uglyURLs = false
     #      要全部设置。此外，如果你的品牌栏用的
     #      SVG，则可留空（""）品牌栏字体。
 
-     # 品牌栏
+    # 品牌栏
     fontFamilySiteBrand = ""
     # 菜单栏
     fontFamilyMenu = ""
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
-    fontFamilyTitle = "'Noto Sans SC', 'Source Code Pro', sans-serif"
+    fontFamilyTitle = "'Noto Serif SC', 'EB Garamond', serif"
     # 分节标题、目录标题
-    fontFamilyHeadings = "'Noto Sans SC', 'Source Code Pro', sans-serif"
+    fontFamilyHeadings = "'Noto Serif SC', 'EB Garamond', serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
-    fontFamilyCode = "'Source Code Pro', 'Noto Sans SC', monospace"
+    fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
     # 引用
     fontFamilyQuote = ""
     # 文章目录
@@ -909,10 +909,10 @@ uglyURLs = false
     # 页脚
     fontFamilyFooter = ""
     # 主体
-    fontFamilyBody = "'Source Code Pro','Noto Sans SC', sans-serif"
+    fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap&family=Noto+Sans+SC:wght@400;500&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
@@ -922,7 +922,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 22
+    fontSize = 16
 
     ######################################
     ## 制表符的宽度

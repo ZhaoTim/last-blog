@@ -66,3 +66,23 @@ a标签的书写顺序: `a:link → a:visited → a:hover → a:active。`
 	}
 }
 ```
+
+`flex: 1;`是简写属性，完整的写法:
+
+```css
+.flex-1 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+```
+
+em是相对单位，计算方式是当前元素的字号乘以当前的em数：
+
+```css
+/* 计算出来box的padding为32px */
+.box {
+  font-size: 16px;
+  padding: 2em;
+}
+```

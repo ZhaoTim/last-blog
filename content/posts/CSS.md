@@ -26,3 +26,43 @@ title: "CSS"
 尽量让选择器的优先级低，这样的话想覆盖也是很容易的事情。
 
 a标签的书写顺序: `a:link → a:visited → a:hover → a:active。`
+
+### Problem
+
+存在一个按钮，它始终固定在视口底部，且点击它会发送请求。关于固定位置可以通过让它的position为fixed来实现，点击事件直接绑定即可。
+```css
+.btn {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+```
+
+但是这个按钮存在一个不可点击的可能性（当它点击过一次以后），这个功能也可以使用CSS来实现，当这个按钮不可点击，给它添加disabled类名。
+
+```scss
+.btn {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+	&.disabled {
+		pointer-events: none;
+	}
+}
+```
+
+会存在一个隐患，如果这个按钮下方的元素有可点击的事件或者是a标签，当fixed和pointer-events:none同时作用时，会穿透，即按钮下方的元素被触发点击事件。解决方法也很简单，将这两个属性分散在两个元素，父 - 子元素，父元素负责定位，子元素负责点击事件:
+
+```scss
+.btn {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+  // 注意这里&和.disabled中间的空格，代表父 - 子关系
+	& .disabled {
+		pointer-events: none;
+	}
+}
+```
